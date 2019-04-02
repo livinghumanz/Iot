@@ -46,7 +46,7 @@ void loop() {
     //Serial.print("inside loop");
       mySerial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
      delay(1000);  // Delay of 1 second
-     mySerial.println("AT+CMGS=\"+918667846184\"\r"); // Replace x with mobile number
+     mySerial.println("AT+CMGS=\"+91XXXXXXXXX\"\r"); // Replace x with mobile number
      
      delay(1000);
      mySerial.print("turbidity value  ");
